@@ -3,7 +3,7 @@
 ![Project Image](path/to/project/image.png)
 
 ## Tabla de contenidos
-- [Descripción](descripción)
+- [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Uso](#uso)
 
