@@ -3,10 +3,10 @@
 ![Project Image](path/to/project/image.png)
 
 ## Tabla de contenidos
-- [Descripción de Proyecto](dDescripción-de-proyecto)
+- [Descripción de Proyecto](dDescripción de proyecto)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- &nbsp; [1a-word2vec.ipynb](#1a-word2vec.ipynb)
+
 
 
 ## Descripción de Proyecto
