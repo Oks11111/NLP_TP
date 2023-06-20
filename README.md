@@ -6,7 +6,7 @@
 - [Descripción de Proyecto](#project-description)
 - [Instalación](#installation)
 - [Uso](#usage)
-       - [1a-word2vec.ipynb](#subíndice)
+-&nbsp;[1a-word2vec.ipynb](#subíndice)
 
 
 ## Descripción de Proyecto
@@ -23,7 +23,7 @@ Este repositorio contiene el código y los recursos utilizados para el Trabajo P
 ## Uso
 A continuación, se describen brevemente los cuadernos de Jupyter disponibles en este proyecto:
 
-# 1a-word2vec.ipynb
+#### 1a-word2vec.ipynb
 Descripción: 
 El código proporcionado realiza las siguientes funciones:
 
