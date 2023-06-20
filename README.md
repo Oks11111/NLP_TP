@@ -22,8 +22,26 @@ Este repositorio contiene el código y los recursos utilizados para el Trabajo P
 ## Uso
 A continuación, se describen brevemente los cuadernos de Jupyter disponibles en este proyecto:
 
+### 
 1a - word2vec.ipynb
-Descripción: Este cuaderno de Jupyter contiene la implementación del modelo Word2Vec para el entrenamiento de vectores de palabras. Se exploran diferentes técnicas de preprocesamiento y se entrena el modelo Word2Vec utilizando un corpus de texto.
+Descripción: 
+El código proporcionado realiza las siguientes funciones:
+
+obtener_vocabulario(corpus): Esta función toma un corpus de texto y devuelve una lista con todos los términos únicos presentes en el corpus. Utiliza un enfoque de "bolsa de palabras" para extraer los términos de cada documento del corpus.
+
+texto_a_matriz_frecuencia(corpus, vocabulario): Esta función toma un corpus de texto y un vocabulario y devuelve una matriz de frecuencia de términos. Cada fila de la matriz representa un documento del corpus, y cada columna representa un término del vocabulario. La matriz contiene las frecuencias de los términos en cada documento.
+
+texto_a_matriz_onehot(corpus, vocabulario): Esta función toma un corpus de texto y un vocabulario y devuelve una matriz codificada en one-hot. Al igual que la función anterior, cada fila de la matriz representa un documento del corpus y cada columna representa un término del vocabulario. Si un término está presente en un documento, se coloca un 1 en la matriz; de lo contrario, se coloca un 0.
+
+calcular_idf(corpus, vocabulario): Esta función calcula el valor IDF (Inverse Document Frequency) para cada término del vocabulario en el corpus dado. El IDF es una medida de la importancia de un término en el corpus. Se utiliza el logaritmo natural y se realiza una suavización aditiva para evitar divisiones por cero.
+
+texto_a_matriz_tfidf(corpus, vocabulario): Esta función combina las matrices de frecuencia de términos y los valores IDF para calcular la matriz TF-IDF (Term Frequency-Inverse Document Frequency). La matriz resultante representa la importancia de cada término en cada documento del corpus.
+
+cosine_similarity(a, b): Esta función calcula la similitud del coseno entre dos vectores utilizando el producto escalar y las normas de los vectores.
+
+ordenar_por_similitud_coseno(corpus, indice_documento): Esta función toma un corpus de texto y un índice de documento y ordena los documentos del corpus en función de su similitud de coseno con el documento dado. Utiliza la matriz TF-IDF y la función cosine_similarity para calcular las similitudes de coseno. Devuelve una lista de tuplas, donde cada tupla contiene el índice de un documento y su similitud de coseno con el documento dado.
+
+El código proporcionado aplica estas funciones al corpus de ejemplo corpus y muestra los documentos ordenados por similitud de coseno con el documento en el índice 1 (segundo documento del corpus).
 
 2c_bot_tfidf_nltk1.ipynb
 Descripción: En este cuaderno de Jupyter, se implementa un chatbot utilizando el enfoque TF-IDF para la recuperación de información. Se utiliza la biblioteca NLTK para el procesamiento de texto y se crea un modelo simple de preguntas y respuestas.
