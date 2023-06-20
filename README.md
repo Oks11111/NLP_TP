@@ -1,6 +1,6 @@
 # Trabajo Práctico de Procesamiento de Lenguaje Natural
 
-![Project Image](path/to/project/image.png)
+![Project Image](logoFIUBA.jpg)
 
 ## Tabla de contenidos
 - [Descripción](#descripción)
