@@ -6,7 +6,7 @@
 - [Descripción de Proyecto](#project-description)
 - [Instalación](#installation)
 - [Uso](#usage)
-&nbsp; - [1a-word2vec.ipynb](#subíndice)
+- &nbsp; [1a-word2vec.ipynb](#subíndice)
 
 
 ## Descripción de Proyecto
