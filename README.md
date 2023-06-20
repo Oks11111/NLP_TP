@@ -43,18 +43,18 @@ ordenar_por_similitud_coseno(corpus, indice_documento): Esta función toma un co
 
 El código proporcionado aplica estas funciones al corpus de ejemplo corpus y muestra los documentos ordenados por similitud de coseno con el documento en el índice 1 (segundo documento del corpus).
 
-2c_bot_tfidf_nltk1.ipynb
+#### 2c_bot_tfidf_nltk1.ipynb
 Descripción: En este cuaderno de Jupyter, se implementa un chatbot utilizando el enfoque TF-IDF para la recuperación de información. Se utiliza la biblioteca NLTK para el procesamiento de texto y se crea un modelo simple de preguntas y respuestas.
 
-3b_Custom_embedding_con_Gensim.ipynb
+#### 3b_Custom_embedding_con_Gensim.ipynb
 Descripción: En este cuaderno de Jupyter, se muestra cómo entrenar y utilizar embeddings personalizados utilizando la biblioteca Gensim. Se explora la creación de vectores de palabras a partir de un corpus de texto específico y se utilizan estos embeddings para tareas de clasificación de texto.
 
-4d_predicción_palabra.ipynb
+#### 4d_predicción_palabra.ipynb
 Descripción: En este cuaderno de Jupyter, se implementa un modelo de predicción de palabras utilizando una red neuronal recurrente (RNN). Se entrena el modelo con un corpus de texto y se evalúa su capacidad para predecir la siguiente palabra en una secuencia de texto.
 
-5_clothing_ecommerce_reviews.ipynb
+#### 5_clothing_ecommerce_reviews.ipynb
 Descripción: Este cuaderno de Jupyter presenta un análisis de sentimiento de reseñas de productos de comercio electrónico de ropa. Se utilizan técnicas de procesamiento de texto y se entrena un modelo de aprendizaje
 
-6_bot_qa.ipynb
+#### 6_bot_qa.ipynb
 Descripción: En este cuaderno de Jupyter, se desarrolla un chatbot de preguntas y respuestas utilizando técnicas de procesamiento de lenguaje natural. Se implementa un modelo de procesamiento de lenguaje natural basado en transformers para responder preguntas basadas en un corpus de texto previamente procesado.
 
