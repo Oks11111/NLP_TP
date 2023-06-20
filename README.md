@@ -2,24 +2,24 @@
 
 ![Project Image](path/to/project/image.png)
 
-## Table of Contents
+## Tabla de contenidos
 - [Project Description](#project-description)
 - [Installation](#installation)
 - [Usage](#usage)
 
 
-## Project Description
+## Descripción de Proyecto
 
 Este repositorio contiene el código y los recursos utilizados para el Trabajo Práctico de Procesamiento de Lenguaje Natural en el contexto de la Especialización en IA de la UBA. El trabajo práctico se centra en diversas técnicas y aplicaciones del procesamiento de lenguaje natural, como modelos de vectores de palabras, chatbots, análisis de sentimiento y más.
 
-## Installation
+## Instalación
 
 1. Clona el repositorio:
 
    ```bash
    git clone https://github.com/Oks11111/NLP_TP.git
    
-## Usage
+## Uso
 A continuación, se describen brevemente los cuadernos de Jupyter disponibles en este proyecto:
 
 1a - word2vec.ipynb
