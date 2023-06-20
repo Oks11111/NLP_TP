@@ -3,13 +3,13 @@
 ![Project Image](path/to/project/image.png)
 
 ## Tabla de contenidos
-- [Descripción de Proyecto](descripción-de-proyecto)
+- [Descripción](descripción)
 - [Instalación](#instalación)
 - [Uso](#uso)
 
 
 
-## Descripción de Proyecto
+## Descripción
 
 Este repositorio contiene el código y los recursos utilizados para el Trabajo Práctico de Procesamiento de Lenguaje Natural en el contexto de la Especialización en IA de la UBA. El trabajo práctico se centra en diversas técnicas y aplicaciones del procesamiento de lenguaje natural, como modelos de vectores de palabras, chatbots, análisis de sentimiento y más.
 
